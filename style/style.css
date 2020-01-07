@@ -1,0 +1,109 @@
+/*inicio das formatações gerais*/
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+/*fim das formatações gerais*/
+
+
+  /*inicio dos estilos do menu-header*/
+header{
+    background-color:#20232a;
+    width: 100%;
+    position: fixed;
+    z-index: 1; /*para que nenhum elemento sobreponha o menu-header*/
+    
+}
+.container{  
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+    height: 75px;
+    align-content: center;
+
+    display: grid;
+    grid-template-areas: 
+    "lgo esp nav";
+    grid-template-columns: auto 1fr auto;
+       
+}
+.nav-bar {
+    display: grid;
+    align-content: center;
+    font-size: 18px;
+}
+.nav-bar ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+.nav-bar a {
+    grid-area: nav;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+}
+.nav-bar a:hover{
+    color: #61dafb;
+}
+li {
+    list-style: none;
+}
+.espaco {
+    grid-area: esp;
+}
+.logo {
+    grid-area: lgo;
+}
+.tituloPrincipal{
+    
+    font-size: 30px;
+    color: #61dafb;
+    font-family: "San Francisco";
+}
+/*fim dos estilos do menu-header*/
+
+
+
+
+
+/* formatação das sections-body*/
+body {
+    font-family: "San Francisco";
+}
+.ghost{
+    width: 100%;
+    height: 75px;
+}
+main {
+    font-size: 20px;
+}
+main section{
+
+    display: grid;
+    justify-content: center; /*alinhamento horizontal*/
+    align-content: center; /*alinhamento vertical*/
+
+    font-size: 1em;
+}
+main section:nth-child(odd){
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+}
+main section:nth-child(even){
+
+    height: 100vh;
+    
+}
+footer {
+    background-color: #20232a;
+    color: white;
+}
