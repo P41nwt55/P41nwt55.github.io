@@ -18,6 +18,7 @@ header{
     width: 100%;
     position: fixed;
     z-index: 1; /*para que nenhum elemento sobreponha o menu-header*/
+    height: 7vmax;
     
 }
 .container{  
@@ -64,7 +65,7 @@ li {
 }
 .tituloPrincipal{
     
-    font-size: 30px;
+    font-size: 3vmax;
     color: #61dafb;
     font-family: "San Francisco";
 }
