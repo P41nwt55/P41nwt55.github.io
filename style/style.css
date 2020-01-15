@@ -32,22 +32,29 @@ header{
     display: grid;
     grid-template-areas: 
     "lgo esp nav";
-    grid-template-columns: auto 10vw auto;
+    grid-template-columns: auto 1fr auto;
        
 }
 .nav-bar {
     display: grid;
     align-content: center;
     font-size: 18px;
+    
+}
+.nav-bar li {
+    
+    text-align: center;
+    
 }
 .nav-bar ul {
     display: grid;
     grid-auto-flow: column;
-    grid-gap: 1px;
+    grid-gap: 10px;
+    
 }
 .nav-bar a {
     grid-area: nav;
-    font-size: 2vmax;
+    font-size: 3vh;
     text-decoration: none;
     color: white;
 }
