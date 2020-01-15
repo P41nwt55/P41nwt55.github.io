@@ -46,7 +46,7 @@ header{
 }
 .nav-bar a {
     grid-area: nav;
-    font-size: 2vw;
+    font-size: 2vmax;
     text-decoration: none;
     color: white;
 }
