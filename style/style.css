@@ -32,7 +32,7 @@ header{
     display: grid;
     grid-template-areas: 
     "lgo esp nav";
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 10vw auto;
        
 }
 .nav-bar {
@@ -43,7 +43,7 @@ header{
 .nav-bar ul {
     display: grid;
     grid-auto-flow: column;
-    grid-gap: 20px;
+    grid-gap: 1px;
 }
 .nav-bar a {
     grid-area: nav;
@@ -59,6 +59,7 @@ li {
 }
 .espaco {
     grid-area: esp;
+    
 }
 .logo {
     grid-area: lgo;
