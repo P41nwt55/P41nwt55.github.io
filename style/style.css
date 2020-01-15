@@ -18,7 +18,7 @@ header{
     width: 100%;
     position: fixed;
     z-index: 1; /*para que nenhum elemento sobreponha o menu-header*/
-    height: 7vmax;
+    height: 15vh;
     
 }
 .container{  
@@ -26,9 +26,9 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 60px;
-    height: 75px;
+    
     align-content: center;
-
+    height: 15vh;
     display: grid;
     grid-template-areas: 
     "lgo esp nav";
