@@ -116,10 +116,25 @@ main section:nth-child(even){
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 60px;
+    align-content: center;
 }
 .titulo-section {
+    padding: 20px;
     font-size: 1.2em;
     color: #61dafb;
+}
+
+    
+    
+
+img {
+    position: relative;
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+    width: 225px;
+    height: 250px;
+    
 }
 
 footer {
